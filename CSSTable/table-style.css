@@ -1,0 +1,38 @@
+.body {
+    width: 859px;
+    height: 311px;
+}
+.table-border tr td {
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+}
+
+.table-style {
+    font-family: "Calibri", serif;
+    font-size: 22px;
+    margin: 10px;
+    width: 100%;
+}
+
+.tr-head {
+    background-color: #3498DB;
+    color: #FFFFFF;
+}
+
+.tr-gray {
+    background-color: #EEEEEE;
+}
+
+.tr-white {
+    background-color: #FFFFFF;
+}
+
+.td-job-title {
+    width: 311px;
+}
+
+.td-name {
+    width: 174px;
+}
