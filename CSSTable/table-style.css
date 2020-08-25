@@ -1,12 +1,13 @@
 .body {
-    width: 859px;
-    height: 311px;
+    max-width: 859px;
+    width: 100%;
+    height: auto;
+    position: absolute;
 }
-.table-border tr td {
-    border: 1px solid #CCCCCC;
-    padding-left: 10px;
-    padding-top: 13px;
-    padding-bottom: 11px;
+
+.table-border tr, td, th {
+    border: 1px solid #CCC;
+    padding: 13px 10px 11px;
 }
 
 .table-style {
@@ -14,25 +15,22 @@
     font-size: 22px;
     margin: 10px;
     width: 100%;
+    border-collapse: collapse;
 }
 
-.tr-head {
+.row-head {
     background-color: #3498DB;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
-.tr-gray {
-    background-color: #EEEEEE;
-}
-
-.tr-white {
-    background-color: #FFFFFF;
-}
-
-.td-job-title {
+.column-job-title {
     width: 311px;
 }
 
-.td-name {
+.column-name {
     width: 174px;
+}
+
+.table-content > tr:nth-child(2n+1) {
+    background-color: #EEE;
 }
