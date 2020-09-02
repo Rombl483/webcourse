@@ -1,17 +1,15 @@
 .body {
-    background-color: #FEEED6;
     color: #676565;
     font-family: "Arial", sans-serif;
-    font-size: 16px;
-    max-width: 819px;
-    height: auto;
-    position: absolute;
-    width: 100%;
+    font-size: 17px;
 }
 
-div.body {
-    padding-left: 12px;
-    padding-right: 14px;
+.content-style {
+    background-color: #FEEED6;
+    max-width: 848px;
+    height: auto;
+    width: 100%;
+    padding: 7px 14px 1px 12px;
 }
 
 .text-blue {
@@ -27,25 +25,22 @@ div.body {
     color: #676565;
     font-size: 32px;
     font-weight: 100;
-    margin-top: 11px;
-    margin-bottom: 23px;
-    padding-top: 10px;
+    padding-bottom: 4px;
 }
 
 .course-subtitle {
-    margin-top: 10px;
-    margin-bottom: 17px;
+    padding-top: 15px
 }
 
 .course-last-subtitle {
-    margin-top: 10px;
-    margin-bottom: 23px;
+    padding-top: 15PX;
+    padding-bottom: 4px;
 }
 
 .course-description {
-    text-indent: 15px;
-    margin-top: 9px;
-    margin-bottom: 9px;
+    text-indent: 18px;
     text-align: justify;
     line-height: 1.4;
+    padding-top: 12px;
+    padding-bottom: 3px;
 }
