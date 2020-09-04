@@ -1,7 +1,7 @@
 (function () {
     var numbersArray = [1, 2, 3, 5, 6, 8, 4, 9, 11, 10, 7];
 
-    numbersArray = numbersArray.sort(function (a, b) {
+    numbersArray.sort(function (a, b) {
         return b - a;
     });
 
