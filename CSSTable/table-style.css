@@ -1,11 +1,16 @@
-.body {
-    max-width: 859px;
+.content-style {
+    max-width: 879px;
     width: 100%;
     height: auto;
-    position: absolute;
+    padding: 10px;
 }
 
-.table-border tr, td, th {
+.table-border  th {
+    border: 1px solid #CCC;
+    padding: 13px 10px 11px;
+}
+
+.table-border  tr td {
     border: 1px solid #CCC;
     padding: 13px 10px 11px;
 }
@@ -13,9 +18,10 @@
 .table-style {
     font-family: "Calibri", serif;
     font-size: 22px;
-    margin: 10px;
     width: 100%;
+    height: auto;
     border-collapse: collapse;
+    display: table;
 }
 
 .row-head {
@@ -24,11 +30,18 @@
 }
 
 .column-job-title {
-    width: 311px;
+    width: 36.15%;
+    height: auto;
 }
 
 .column-name {
-    width: 174px;
+    width: 20.2%;
+    height: auto;
+}
+
+.column-twitter {
+    width: 23.45%;
+    height: auto;
 }
 
 .table-content > tr:nth-child(2n+1) {
