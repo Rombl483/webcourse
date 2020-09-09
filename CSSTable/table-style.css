@@ -5,12 +5,7 @@
     padding: 10px;
 }
 
-.table-border  th {
-    border: 1px solid #CCC;
-    padding: 13px 10px 11px;
-}
-
-.table-border  tr td {
+.table-border th, .table-border tr td {
     border: 1px solid #CCC;
     padding: 13px 10px 11px;
 }
@@ -27,6 +22,7 @@
 .row-head {
     background-color: #3498DB;
     color: #FFF;
+    text-align: left;
 }
 
 .column-job-title {
